@@ -8,6 +8,7 @@ const routes: Routes = [
   {path: '', redirectTo: '/dashboard', pathMatch: 'full'},
   {path: 'dashboard', component: DashboardComponent},
   {path: 'users', component: UsersComponent},
+  {path: 'users/:id', component: UsersComponent},
   {path: 'settings', component: SettingsComponent},
   // Must be at the End
   {path: '**', redirectTo: '/dashboard', pathMatch: 'full'},
